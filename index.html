@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+
+    <title>Hugo Ferreira</title>
+
+    <link rel="icon" href="/images/icon-32x32.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
+
+    <div id="main_container">
+        <div id="header">
+            <!-- NOME -->
+            <div class="header_logotype_container">
+                <h1 class="logotype_name">Hugo Ferreira</h1>
+            </div>
+
+            <!-- MENU -->
+            <div class="header_menu_container">
+                <ul class="header_menu horizontal_list">
+                    <li><a class="no_border purple" href="#sobre_mim">Sobre mim</a></li>
+                    <li><a href="#hobbies">Interesses e Hobbies</a></li>
+                    <li><a href="#educacao">Educação</a></li>
+                    <li><a href="#emprego">Emprego</a></li>
+                    <li><a href="#trabalhos/projetos">Trabalhos/Projetos</a></li>
+                </ul>
+            </div>
+
+            <!-- Coluna da Esquerda -->
+            <div id="left_col">
+                <div class="imagem"></div>
+
+                <div class="nome">
+                    <p>Hugo André Novais Ferreira</p>
+                    <p>Barcelos, Portugal</p>
+                </div>
+
+                <div class="contactos">
+                    <h2>Contactos</h2>
+                    <p class="verde">Email:</p>
+                    <p>hugoanf97@gmail.com</p>
+                </div>
+
+                <div class="social">
+                    <ul class="social_icons horizontal_list">
+                        <a href="https://github.com/HF97">
+                            <i class="fa fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/hugoferreira97/">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <br>
+
+                <ul class="download_print_buttons horizontal_list">
+                    <li><a href="/CV-HugoFerreira.pdf" download=""><span class="icon entypo-download"></span>Download CV</a></li>
+                </ul>
+            </div>
+            <!-- PROFILE CONTENT -->
+            <div id="content_container">				
+                <div class="block">
+                    <h1>Sobre mim</h1>
+                    <p>Com gosto por tecnologia, desporto e entretenimento audiovisual, com facilidade em aprender e trabalhador.</p>
+                </div>
+
+                <div class="clear"></div>
+    
+                <div class="last block" id="interesses_e_hobbies">
+                    <h2>Interesses e Hobbies</h2>
+                    <ul>
+                        <li>Passar tempo com amigos/familia.</li>
+                        <li>Jogos PC/PS4.</li>
+                        <li>Praticar desporto.</li>
+                        <li>Programação.</li>
+                        <li>Filmes/Series.</li>
+                        <li>Ler.</li>
+                    </ul>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="block" id="educacao">
+                    <h2>Educação</h2>
+                    <ul>
+                        <li>Escola Básica de Silveiros, Barcelos.</li>
+                        <li>Escola Básica e Secundária Vale D Este, Viatodos, Barcelos - Ciências e Tecnologias.</li>
+                        <li>Universidade do Minho - Ciências da Computação.</li>
+                    </ul>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="block" id="emprego">
+                    <h2>Emprego</h2>
+                    <ul>
+                        <li>Comércio Têxtil Atlantic Sud, Lda. - Ajudante de Armazém.</li>
+                    </ul>
+                </div>
+
+                <div class="clear"></div>
+    
+                <div class="block" id="trabalhos/projetos">
+                    <h2>Trabalhos/Projetos</h2>
+                    <p>Universidade:</p>
+                    <ul>
+                        <li><a href="https://github.com/HF97/TransportesFerreira">Transportes Ferreira</a></li>
+                        <li><a href="https://github.com/HF97/BigTwo">BigTwo</a></li>
+                        <li><a href="https://github.com/HF97/JavaFactura">Java Factura</a></li>
+                        <li><a href="https://github.com/HF97/GestaoVendas">Gestão de Vendas</a></li>
+                        <li><a href="https://github.com/HF97/SistemaSolar">Sistema Solar</a></li>
+                        <li><a href="https://github.com/HF97/PLC">PLC</a></li>
+                        <li><a href="https://github.com/HF97/TrabalhoCP">CP</a></li>
+                        <li><a href="https://github.com/HF97/LA2">LA2</a></li>
+                    </ul>
+                    <p>Pessoais:</p>
+                    <ul>
+                        <li><a href="https://aluminiossilveiros.com">aluminiossilveiros.com</a>/</li>
+                        <li><a href="https://github.com/HF97/HF97.github.io">hf97.github.io</a></li>
+                        <li><a href="https://github.com/HF97/UMCarroJa">UMCarroJa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <p class="textoFooter">Hugo Ferriera 2020</p>
+    </footer>
+    
+    <!-- botao inicio -->
+    <div>
+        <button onclick="topFunction()" id="voltarInicio" title="Go to top">Início</button>
+    </div>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("voltarInicio").style.display = "block";
+            } else {
+                document.getElementById("voltarInicio").style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>
